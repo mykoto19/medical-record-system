@@ -7,7 +7,7 @@
 
     Private Sub btnLogin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLogin.Click
         If txtUsername.Text = "Group1" And txtPass.Text = "project" Then
-            MessageBox.Show("Your Now Logged in.", "Success!.")
+            MessageBox.Show("You Are Now Logged in.", "Success!.")
             FormHome.Show()
             Me.Hide()
             'txtUsername.Text = ""
